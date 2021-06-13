@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="gymmanagement.app">
+  <class name="Trainer" table="Trainer">
+      <id name="trainerId">
+          <generator class="native"/>
+      </id>    
+      <property name="trainerName"/>
+      <property name="trainerAge"/>
+      <property name="trainerGender"/>
+      <property name="trainerType"/>
+      <property name="salary"/>
+      
+  </class>
+</hibernate-mapping>
